@@ -7,21 +7,21 @@ class Lab2P1{
 	  String op = s.next();
 	  
 	  switch(op){
-	  	case"++":
+		  case "++":
 	  		System.out.println("post:"+(a++));
 	  		System.out.println("pre:"+(++a));
 	  		break;
-	  	case"--":
+		  case "--":
 	  		System.out.println("post:"+(a--));
 	  		System.out.println("pre:"+(--a));
 	  		break;
 	  	
-	  	case"+":
+		  case "+":
 	  		a = +a;
 	  		System.out.println("unary +: "+(a));
 	  		break;
 	  		
-	  	case"-":
+		  case "-":
 	  		a = -a;
 	  		System.out.println("unary -: "+(a));
 	  		break;
